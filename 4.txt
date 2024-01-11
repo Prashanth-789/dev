@@ -83,7 +83,17 @@ hdfs dfs -cp gs://cloud-training/gsp323/data.txt /data.txt
 
  
 submit job dataproc
+Region From LAB > Cluster cluster-b53a > Job type spark
 
+Main class or jar org.apache.spark.examples.SparkPageRank
+
+Jar files file:///usr/lib/spark/examples/jars/spark-examples.jar
+
+Arguments /data.txt
+
+Max restarts per hour 1
+
+SUBMIT
 
 
 
